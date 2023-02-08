@@ -1,0 +1,87 @@
+﻿<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns="smsf2"
+    elementFormDefault="qualified"
+    targetNamespace="smsf2">
+
+  <xs:element name="smsf">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="pdc">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string"/>
+              <xs:element name="type" type="xs:string"/>
+              <xs:element name="fps" type="xs:decimal"/>
+              <xs:element name="address" type="xs:string"/>
+              <xs:element name ="security">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="user" type="xs:string"/>
+                    <xs:element name="pswd" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="dataBank" type="xs:string" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="pmu" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="idNumber" type="xs:int" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="idName" type="xs:string"/>
+              <xs:element name="fullName" type="xs:string"/>
+              <xs:element name="voltLevel" type="xs:double"/>
+              <xs:element name ="local">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="area" type="xs:string"/>
+                    <xs:element name="state" type="xs:string"/>
+                    <xs:element name="station" type="xs:string"/>
+                    <xs:element name="lat" type="xs:double"/>
+                    <xs:element name="lon" type="xs:double"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="measurements">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="phasor" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="pName" type="xs:string"/>
+                          <xs:element name="pType" type="xs:string"/>
+                          <xs:element name="pPhase" type="xs:string"/>
+                          <xs:element name="modId" type="xs:int" minOccurs="0" maxOccurs="1"/>
+                          <xs:element name="angId" type="xs:int" minOccurs="0" maxOccurs="1"/>
+                          <xs:element name="chId" type="xs:int" minOccurs="0" maxOccurs="1"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>    
+                    <xs:element name="freq">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="fName" type="xs:string"/>
+                          <xs:element name="fId" type="xs:int"/>                                                  
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="dFreq">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="dfName" type="xs:string"/>
+                          <xs:element name="dfId" type="xs:int" default="0"/>                                                  
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>

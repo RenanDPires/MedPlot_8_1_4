@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedPlot", "MedPlot\MedPlot.csproj", "{A8E236EC-6EE8-4D35-8EE3-ECDCCA81BA82}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MedPlot_Instalador", "MedPlot_Instalador\MedPlot_Instalador.vdproj", "{B9CE30FB-F387-4FD1-8F1E-7A82928C7F6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedFasee", "MedFaseeLib\MedFasee.csproj", "{3C5D4409-91AC-489E-97E1-C64BCED9632C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8E236EC-6EE8-4D35-8EE3-ECDCCA81BA82}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A8E236EC-6EE8-4D35-8EE3-ECDCCA81BA82}.Debug|x64.ActiveCfg = Debug|x64
+		{A8E236EC-6EE8-4D35-8EE3-ECDCCA81BA82}.Debug|x64.Build.0 = Debug|x64
+		{A8E236EC-6EE8-4D35-8EE3-ECDCCA81BA82}.Debug|x86.ActiveCfg = Debug|x86
+		{A8E236EC-6EE8-4D35-8EE3-ECDCCA81BA82}.Debug|x86.Build.0 = Debug|x86
+		{A8E236EC-6EE8-4D35-8EE3-ECDCCA81BA82}.Release|Any CPU.ActiveCfg = Release|x86
+		{A8E236EC-6EE8-4D35-8EE3-ECDCCA81BA82}.Release|x64.ActiveCfg = Release|x86
+		{A8E236EC-6EE8-4D35-8EE3-ECDCCA81BA82}.Release|x64.Build.0 = Release|x86
+		{A8E236EC-6EE8-4D35-8EE3-ECDCCA81BA82}.Release|x86.ActiveCfg = Release|x86
+		{A8E236EC-6EE8-4D35-8EE3-ECDCCA81BA82}.Release|x86.Build.0 = Release|x86
+		{B9CE30FB-F387-4FD1-8F1E-7A82928C7F6C}.Debug|Any CPU.ActiveCfg = Debug
+		{B9CE30FB-F387-4FD1-8F1E-7A82928C7F6C}.Debug|Any CPU.Build.0 = Debug
+		{B9CE30FB-F387-4FD1-8F1E-7A82928C7F6C}.Debug|x64.ActiveCfg = Debug
+		{B9CE30FB-F387-4FD1-8F1E-7A82928C7F6C}.Debug|x86.ActiveCfg = Debug
+		{B9CE30FB-F387-4FD1-8F1E-7A82928C7F6C}.Release|Any CPU.ActiveCfg = Release
+		{B9CE30FB-F387-4FD1-8F1E-7A82928C7F6C}.Release|Any CPU.Build.0 = Release
+		{B9CE30FB-F387-4FD1-8F1E-7A82928C7F6C}.Release|x64.ActiveCfg = Release
+		{B9CE30FB-F387-4FD1-8F1E-7A82928C7F6C}.Release|x86.ActiveCfg = Release
+		{B9CE30FB-F387-4FD1-8F1E-7A82928C7F6C}.Release|x86.Build.0 = Release
+		{3C5D4409-91AC-489E-97E1-C64BCED9632C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5D4409-91AC-489E-97E1-C64BCED9632C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5D4409-91AC-489E-97E1-C64BCED9632C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3C5D4409-91AC-489E-97E1-C64BCED9632C}.Debug|x64.Build.0 = Debug|Any CPU
+		{3C5D4409-91AC-489E-97E1-C64BCED9632C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3C5D4409-91AC-489E-97E1-C64BCED9632C}.Debug|x86.Build.0 = Debug|Any CPU
+		{3C5D4409-91AC-489E-97E1-C64BCED9632C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5D4409-91AC-489E-97E1-C64BCED9632C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5D4409-91AC-489E-97E1-C64BCED9632C}.Release|x64.ActiveCfg = Release|Any CPU
+		{3C5D4409-91AC-489E-97E1-C64BCED9632C}.Release|x64.Build.0 = Release|Any CPU
+		{3C5D4409-91AC-489E-97E1-C64BCED9632C}.Release|x86.ActiveCfg = Release|Any CPU
+		{3C5D4409-91AC-489E-97E1-C64BCED9632C}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB5D721F-A79A-4DDA-8757-457CC0201922}
+	EndGlobalSection
+EndGlobal
